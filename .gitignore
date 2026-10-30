@@ -1,0 +1,127 @@
+# ==============================
+# Java / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build/
+out/
+
+# ==============================
+# Spring Boot
+# ==============================
+*.pid
+*.pid.lock
+*.log
+spring-boot-devtools.properties
+
+# ==============================
+# IDE - IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# ==============================
+# IDE - VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# IDE - Eclipse
+# ==============================
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+
+# ==============================
+# IDE - NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ==============================
+# Docker / LocalStack
+# ==============================
+db_volumes/
+cdk.out/
+*.template.json
+localstack-data/
+.localstack/
+
+# ==============================
+# Secrets / Environment
+# ==============================
+*.env
+*.env.local
+*.env.*.local
+.env
+application-local.properties
+application-local.yml
+*.key
+*.pem
+*.p12
+*.jks
+
+# ==============================
+# Node / Frontend (if applicable)
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+
+# ==============================
+# Misc
+# ==============================
+*.tmp
+*.bak
+*.orig
+*.rej
+*.class
+*.swp
+*~
+
+# ==============================
+# Personal notes / generated docs
+# ==============================
+patient-management-notes.html
+patient-management-notes.pdf
+
+# ==============================
+# Environment / secrets (extra)
+# ==============================
+.env.*
+!.env.example

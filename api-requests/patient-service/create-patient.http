@@ -1,0 +1,13 @@
+### GET request to example server
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name" : "Haswanth with kafka test",
+  "email" : "kafkatest@email.com",
+  "address" : "hhh nizampet",
+  "dateOfBirth": "2004-10-09",
+  "registeredDate": "2026-10-06"
+}
+
+###
